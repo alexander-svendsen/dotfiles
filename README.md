@@ -1,7 +1,6 @@
-# dotfiles
+# Alexander's dotfiles
 My dotfiles project
 
-More to come
 
 
 ## Thanks to
