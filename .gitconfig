@@ -53,6 +53,7 @@
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
 	
+	# Push all commits, included those in submodules
 	pushall = push --recurse-submodules=on-demand
 
 [apply]
