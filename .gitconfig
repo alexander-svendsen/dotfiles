@@ -52,6 +52,8 @@
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
+	
+	pushall = push --recurse-submodules=on-demand
 
 [apply]
 	# Detect whitespace errors when applying a patch
