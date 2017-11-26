@@ -44,3 +44,4 @@ git config --global user.email # <EMAIL>
 
 ## Thanks to
 - [Mathias Bynen's dotfiles](https://github.com/mathiasbynens/dotfiles)
+- And other random repos found on Github
