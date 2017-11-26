@@ -18,5 +18,29 @@ To update, run the last command again inside your `dotfiles` repository:
 source bootstrap.sh
 ```
 
+You need to have set up **git** to get started:
+
+## Initial Git setup
+
+```bash
+# Generate ssh key
+ssh-keygen -t rsa -C "your.email@xxx.yy"
+
+# Add ssh key to ssh-agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+# Copy ssh key to github.com
+subl ~/.ssh/id_rsa.pub
+
+# Test connection
+ssh -T git@github.com
+
+# Set git config values
+git config --global user.name # <NAME>
+git config --global user.email # <EMAIL>
+```
+
+
 ## Thanks to
 - [Mathias Bynen's dotfiles](https://github.com/mathiasbynens/dotfiles)
