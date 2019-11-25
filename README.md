@@ -31,7 +31,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 # Copy ssh key to github.com
-subl ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
 
 # Test connection
 ssh -T git@github.com
